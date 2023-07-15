@@ -1,0 +1,41 @@
+.card{
+  border-style: none;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+}
+.card-header{
+  background-color: transparent;
+  border: none;
+}
+.icons{
+  font-size: 25px;
+padding: 10px;
+}
+.mainimg{
+  height: 15%;
+    padding: 10px;
+} 
+#banner{
+  background-image:" assets/images/cardpic1.png";
+}
+
+.btn {
+    display: inline-block; 
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #595858;
+  border-bottom-color: #8c8c8c;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  float:right;
+}
+.btn:hover {
+  background-color: #bfbfbf;
+}
+
+.btn.btn-submit:hover {
+  background-color: #616263;
+  color: white;
+}

@@ -1,0 +1,16 @@
+.navclass{
+    color:black;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    
+  }.nav-link{
+    color: black;
+    padding: 10px;
+  
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    text-align: center;
+    justify-content: center;
+  }
