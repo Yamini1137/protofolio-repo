@@ -1,1 +1,35 @@
-<p>skill works!</p>
+<div class="container"><div style="text-align:center">
+    <h1 style="padding: 15px;">
+      Update Your Skills
+    </h1>
+  </div>
+  
+  <div class="ng-autocomplete">
+    <ng-autocomplete
+      [data]="Skills"
+      [searchKeyword]="keyword"
+      placeholder="Enter the Skill"
+      (selected)='selectEvent($event)'
+      (inputChanged)='onChangeSearch($event)'
+      (inputFocused)='onFocused($event)'
+      historyIdentifier="Skills"
+      [itemTemplate]="itemTemplate"
+      [notFoundTemplate]="notFoundTemplate">
+    </ng-autocomplete>
+  
+    <ng-template #itemTemplate let-item>
+      <a [innerHTML]="item.name"></a>
+    </ng-template>
+  
+    <ng-template #notFoundTemplate let-notFound>
+      <div [innerHTML]="notFound"></div>
+    </ng-template>
+  </div>
+
+  <div class="card card1"  style="text-align:center" *ngIf="skillName">
+    {{skillName}} <span><i class="far fa-star"></i></span>
+  </div>
+  <div *ngIf="!skillName">
+  Select your skill
+  </div>
+  </div>

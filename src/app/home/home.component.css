@@ -1,36 +1,41 @@
-.card{
+.card {
   border-style: none;
   padding: 15px;
   margin: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
- 
+
 }
-.card-header{
+
+.card-header {
   background-color: transparent;
   border: none;
 }
-.icons{
+
+.icons {
   font-size: 25px;
-padding: 10px;
+  padding: 10px;
 }
-.mainimg{
+
+.mainimg {
   height: 15%;
-    padding: 10px;
-} 
-#banner{
-  background-image:" assets/images/cardpic1.png";
+  padding: 10px;
+}
+
+#banner {
+  background-image: " assets/images/cardpic1.png";
 }
 
 .btn {
-    display: inline-block; 
+  display: inline-block;
   color: #fff;
   text-transform: uppercase;
   background-color: #595858;
   border-bottom-color: #8c8c8c;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  float:right;
+  float: right;
 }
+
 .btn:hover {
   background-color: #bfbfbf;
 }
@@ -38,4 +43,16 @@ padding: 10px;
 .btn.btn-submit:hover {
   background-color: #616263;
   color: white;
+}
+
+.educap {
+  padding-top: 2rem;
+  /* color: #6c757d; */
+  text-align: left;
+  font-weight: 600;
+}
+.refeerals{
+  color: #303334;
+  text-decoration: none;
+  
 }

@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
-
+import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,7 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, FormsModule
+    AppRoutingModule, FormsModule,AutocompleteLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
